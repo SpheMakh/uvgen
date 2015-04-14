@@ -147,7 +147,7 @@ class UVCreate(object):
             return th_ha
         
 
-        obs.date = date or "%d/%d/%d 12:0:0"%(time.localtime()[:3])
+        obs.date = date or "2015/04/8 12:0:0"#%(time.localtime()[:3])
         lst = obs.sidereal_time() 
 
         def change (angle):
